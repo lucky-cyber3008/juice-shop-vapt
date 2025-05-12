@@ -49,7 +49,7 @@ juice-shop-vapt/
 In each `Findings/*.md` file, screenshots are embedded like this:
 
 ```markdown
-![Proof](../Reports/Screenshots/DOM/dom-xss-popup.png)
+![Proof](../Reports/Screenshots/DOM)
 
 
 ** How to Use This Repository
