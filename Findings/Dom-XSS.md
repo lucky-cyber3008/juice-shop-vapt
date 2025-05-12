@@ -45,4 +45,9 @@ This vulnerability allows an attacker to inject malicious scripts into the page 
 
 ## 📸 Screenshot
 
-![DOM XSS Proof](./Reports/Screenshots/DOM/)
+![DOM XSS Proof]
+
+🔍 *To view this screenshot manually, navigate to:*  
+`Reports/ → Screenshots/ → DOM/
+
+📁 Each vulnerability in this project has a **dedicated folder** under `Reports/Screenshots/` for better organization and clarity.
