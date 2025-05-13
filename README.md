@@ -67,3 +67,6 @@ Cybersecurity Enthusiast | Bug Bounty Learner | Ethical Hacker in Training
 📜 Disclaimer
 This repository is intended for educational and ethical purposes only. All vulnerabilities shown are exploited on OWASP Juice Shop — an intentionally vulnerable application. Do not attempt these techniques on unauthorized systems. Always follow responsible disclosure policies and the law.
 OWASP Juice Shop, VAPT, Penetration Testing, Web Application Security, Bug Bounty, Ethical Hacking, DOM XSS, IDOR, Broken Access Control, Cybersecurity Portfolio, Juice Shop Report
+
+
+🔗 [View Source on GitHub](https://github.com/lucky-cyber3008/juice-shop-vapt)
