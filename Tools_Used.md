@@ -1,10 +1,9 @@
 🛠️ Tools Used
-Kali Linux
 
-Burp Suite
+Burp Suite Community Edition
 
-OWASP Juice Shop
+Firefox Developer Tools
 
-Browser DevTools
+OWASP Juice Shop (local instance)
 
-Markdown for reporting
+GitHub Pages for documentation
