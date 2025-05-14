@@ -48,6 +48,6 @@ This vulnerability can lead to **information disclosure**, **privacy violations*
 ![Sensitive Data Exposure Proof Screenshot]
 
 🔍 *To view this screenshot manually, navigate to:*  
-`Reports/ → Screenshots/ → Sensitive-Data/`
+`Reports/ → Screenshots/ → SDE`
 
 📁 Each vulnerability in this project has a **dedicated folder** under `Reports/Screenshots/` for better organization and clarity.
