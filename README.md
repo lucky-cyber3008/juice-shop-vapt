@@ -11,7 +11,7 @@ juice-shop-vapt/
 ├── Findings/
 │   ├── injection/
 │   │   ├── admin-login-sqli.md
-│   │   ├── blind-sqli-delay.md
+│   │   ├── no-sql-manipulation.md
 │   │   └── union-sqli.md
 │   ├── xss/
 │   │   ├── dom-xss.md
@@ -60,9 +60,9 @@ juice-shop-vapt/
 ## ✅ Vulnerabilities Covered (with Categories)
 
 | # | Category                   | Sample Labs                                                              | Screenshot Folder                   |
-|---|----------------------------|---------------------------------------------------------------------------|--------------------------------------|
-| 1 | **Injection**              | Admin Login via SQLi, Blind SQLi (Delay), Union SQLi                      | `Screenshots/Injection/`            |
-| 2 | **Cross-Site Scripting**   | DOM XSS, Reflected XSS in Order Tracking, Stored XSS in Reviews          | `Screenshots/XSS/DOM`, `Reflected`, `Stored` |
+|---|----------------------------|--------------------------------------------------------------------------|--------------------------------------|
+| 1 | **Injection**              | Admin Login via SQLi, No-Sql-Manipulation, Union SQLi                    | `Screenshots/Injection/`            |
+| 2 | **Cross-Site Scripting**   | DOM XSS, Reflected XSS in Order Tracking, Bonus Payload                  | `Screenshots/XSS/DOM`, `Reflected`, `Stored` |
 | 3 | **Broken Access Control**  | Access Admin Section, View Other’s Basket, Modify/Delete Review          | `Screenshots/BrokenAccessControl/`  |
 | 4 | **IDOR**                   | View Other’s Orders, Download Invoice, Modify Order via URL              | `Screenshots/IDOR/`                 |
 | 5 | **Sensitive Data Exposure**| Retrieve Cat Photo, Backup File Access, Access Internal Docs             | `Screenshots/SensitiveDataExposure/`|
