@@ -4,50 +4,59 @@ Welcome to my Vulnerability Assessment & Penetration Testing (VAPT) project focu
 
 ---
 
-## 📁 Project Structure 
+## 📁 Project Structure
 
 juice-shop-vapt/
+│
 ├── Findings/
-│ ├── injection/
-│ │ ├── admin-login-sqli.md
-│ │ ├── blind-sqli-delay.md
-│ │ └── union-sqli.md
-│ ├── xss/
-│ │ ├── dom-xss.md
-│ │ ├── reflected-xss.md
-│ │ └── stored-xss.md
-│ ├── broken-access-control/
-│ │ ├── access-admin-section.md
-│ │ ├── basket-access.md
-│ │ └── review-edit.md
-│ ├── idor/
-│ │ ├── order-access.md
-│ │ ├── invoice-download.md
-│ │ └── order-modify.md
-│ ├── sensitive-data-exposure/
-│ │ ├── cat-photo.md
-│ │ ├── backup-access.md
-│ │ └── internal-docs.md
-│ ├── security-misconfiguration/
-│ │ ├── access-logs.md
-│ │ ├── b2b-api.md
-│ │ └── cors.md
-│ └── auth-session/
-│ ├── sql-bypass-login.md
-│ ├── reset-token-abuse.md
-│ └── persistent-session.md
+│   ├── injection/
+│   │   ├── admin-login-sqli.md
+│   │   ├── blind-sqli-delay.md
+│   │   └── union-sqli.md
+│   │
+│   ├── xss/
+│   │   ├── dom-xss.md
+│   │   ├── reflected-xss.md
+│   │   └── stored-xss.md
+│   │
+│   ├── broken-access-control/
+│   │   ├── access-admin-section.md
+│   │   ├── basket-access.md
+│   │   └── review-edit.md
+│   │
+│   ├── idor/
+│   │   ├── order-access.md
+│   │   ├── invoice-download.md
+│   │   └── order-modify.md
+│   │
+│   ├── sensitive-data-exposure/
+│   │   ├── cat-photo.md
+│   │   ├── backup-access.md
+│   │   └── internal-docs.md
+│   │
+│   ├── security-misconfiguration/
+│   │   ├── access-logs.md
+│   │   ├── b2b-api.md
+│   │   └── cors.md
+│   │
+│   └── auth-session/
+│       ├── sql-bypass-login.md
+│       ├── reset-token-abuse.md
+│       └── persistent-session.md
+│
 ├── Reports/
-│ └── Screenshots/
-│ ├── Injection/
-│ ├── XSS/
-│ │ ├── DOM/
-│ │ ├── Reflected/
-│ │ └── Stored/
-│ ├── BrokenAccessControl/
-│ ├── IDOR/
-│ ├── SensitiveDataExposure/
-│ ├── SecurityMisconfiguration/
-│ └── AuthSession/
+│   └── Screenshots/
+│       ├── Injection/
+│       ├── XSS/
+│       │   ├── DOM/
+│       │   ├── Reflected/
+│       │   └── Stored/
+│       ├── BrokenAccessControl/
+│       ├── IDOR/
+│       ├── SensitiveDataExposure/
+│       ├── SecurityMisconfiguration/
+│       └── AuthSession/
+│
 ├── Tools_Used.md
 └── README.md
 
