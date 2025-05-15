@@ -16,7 +16,7 @@ juice-shop-vapt/
 │   ├── xss/
 │   │   ├── dom-xss.md
 │   │   ├── reflected-xss.md
-│   │   └── stored-xss.md
+│   │   └── bonus-paylaod.md
 │   ├── broken-access-control/
 │   │   ├── access-admin-section.md
 │   │   ├── basket-access.md
