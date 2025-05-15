@@ -6,36 +6,66 @@ Welcome to my Vulnerability Assessment & Penetration Testing (VAPT) project focu
 
 ## 📁 Project Structure
 
-- `juice-shop-vapt/`
-  - `Findings/` – Vulnerability write-ups in Markdown
-    - `dom-xss.md`
-    - `idor.md`
-    - `broken-access-control.md`
-    - `sensitive-data-exposure.md`
-    - `security-misconfiguration.md`
-  - `Reports/`
-    - `Screenshots/` – Proof-of-concept screenshots
-      - `DOM/`
-      - `IDOR/`
-      - `BAC/`
-      - `SDE/`
-      - `Misconfig/`
-  - `Tools_Used.md` – Tools used during the assessment
-  - `README.md` – Project overview
+juice-shop-vapt/
+├── Findings/
+│ ├── injection/
+│ │ ├── admin-login-sqli.md
+│ │ ├── blind-sqli-delay.md
+│ │ └── union-sqli.md
+│ ├── xss/
+│ │ ├── dom-xss.md
+│ │ ├── reflected-xss.md
+│ │ └── stored-xss.md
+│ ├── broken-access-control/
+│ │ ├── access-admin-section.md
+│ │ ├── basket-access.md
+│ │ └── review-edit.md
+│ ├── idor/
+│ │ ├── order-access.md
+│ │ ├── invoice-download.md
+│ │ └── order-modify.md
+│ ├── sensitive-data-exposure/
+│ │ ├── cat-photo.md
+│ │ ├── backup-access.md
+│ │ └── internal-docs.md
+│ ├── security-misconfiguration/
+│ │ ├── access-logs.md
+│ │ ├── b2b-api.md
+│ │ └── cors.md
+│ └── auth-session/
+│ ├── sql-bypass-login.md
+│ ├── reset-token-abuse.md
+│ └── persistent-session.md
+├── Reports/
+│ └── Screenshots/
+│ ├── Injection/
+│ ├── XSS/
+│ │ ├── DOM/
+│ │ ├── Reflected/
+│ │ └── Stored/
+│ ├── BrokenAccessControl/
+│ ├── IDOR/
+│ ├── SensitiveDataExposure/
+│ ├── SecurityMisconfiguration/
+│ └── AuthSession/
+├── Tools_Used.md
+└── README.md
 
 
 
 ---
 
-## ✅ Vulnerabilities Covered
+## ✅ Vulnerabilities Covered (with Categories)
 
-| #   | Vulnerability                  | Write-Up File                        | Screenshot Folder             |
-|-----|-------------------------------|--------------------------------------|-------------------------------|
-| 1   | DOM-Based XSS                 | `Findings/dom-xss.md`                | `Reports/Screenshots/DOM`     |
-| 2   | Insecure Direct Object Ref.   | `Findings/idor.md`                   | `Reports/Screenshots/IDOR`    |
-| 3   | Broken Access Control         | `Findings/broken-access-control.md`  | `Reports/Screenshots/BAC`     |
-| 4   | Sensitive Data Exposure       | `Findings/sensitive-data-exposure.md`| `Reports/Screenshots/SDE`     |
-| 5   | Security Misconfiguration     | `Findings/security-misconfiguration.md` | `Reports/Screenshots/Misconfig` |
+| # | Category                   | Sample Labs                                                              | Screenshot Folder                   |
+|---|----------------------------|---------------------------------------------------------------------------|--------------------------------------|
+| 1 | **Injection**              | Admin Login via SQLi, Blind SQLi (Delay), Union SQLi                      | `Screenshots/Injection/`            |
+| 2 | **Cross-Site Scripting**   | DOM XSS, Reflected XSS in Order Tracking, Stored XSS in Reviews          | `Screenshots/XSS/DOM`, `Reflected`, `Stored` |
+| 3 | **Broken Access Control**  | Access Admin Section, View Other’s Basket, Modify/Delete Review          | `Screenshots/BrokenAccessControl/`  |
+| 4 | **IDOR**                   | View Other’s Orders, Download Invoice, Modify Order via URL              | `Screenshots/IDOR/`                 |
+| 5 | **Sensitive Data Exposure**| Retrieve Cat Photo, Backup File Access, Access Internal Docs             | `Screenshots/SensitiveDataExposure/`|
+| 6 | **Security Misconfiguration** | Access Logs, Deprecated B2B API, Insecure CORS                         | `Screenshots/SecurityMisconfiguration/`|
+| 7 | **Auth & Session Issues**  | SQL Login Bypass, Tokenless Password Reset, Persistent Session           | `Screenshots/AuthSession/`          |
 
 > Each report contains payloads, Burp Suite steps, screenshots, vulnerability impact, and suggested mitigations.
 
@@ -43,30 +73,30 @@ Welcome to my Vulnerability Assessment & Penetration Testing (VAPT) project focu
 
 ## 📸 Screenshot Integration
 
-Screenshots for each vulnerability can be found under their respective folders inside `Reports/Screenshots/`.  
-In Markdown reports, they are embedded like:
+Screenshots for each vulnerability are stored under:
+
+- `Reports/Screenshots/<Category>/<Specific Attack>/`
+- Use Markdown like this in your reports:
 
 ```markdown
-![Proof-of-Concept](../Reports/Screenshots/)
+![Proof-of-Concept](../Reports/Screenshots)
+
+
 
 🚀 How to Use This Repository
-1 Clone the repository: git clone https://github.com/lucky-cyber3008/juice-shop-vapt.git
+1. Clone the repository:  git clone https://github.com/lucky-cyber3008/juice-shop-vapt.git
 
-2 Read vulnerability details in the Findings/ folder.
+2. Read vulnerability write-ups under the Findings/ folder organized by category.
 
-3 Explore screenshots under Reports/Screenshots/ for proof-of-concepts.
+3. Explore screenshots under Reports/Screenshots/ for PoC images.
 
-4 Use this as a reference for learning or preparing for ethical hacking, bug bounty, or OSCP-style assessments.
-
+4. Use this as a reference for learning, bug bounty prep, or VAPT methodology.
 
 🙋‍♂️ Author
 Lucky
 GitHub: @lucky-cyber3008
 Cybersecurity Enthusiast | Bug Bounty Learner | Ethical Hacker in Training
 
+
 📜 Disclaimer
-This repository is intended for educational and ethical purposes only. All vulnerabilities shown are exploited on OWASP Juice Shop — an intentionally vulnerable application. Do not attempt these techniques on unauthorized systems. Always follow responsible disclosure policies and the law.
-OWASP Juice Shop, VAPT, Penetration Testing, Web Application Security, Bug Bounty, Ethical Hacking, DOM XSS, IDOR, Broken Access Control, Cybersecurity Portfolio, Juice Shop Report
-
-
-🔗 [View Source on GitHub](https://github.com/lucky-cyber3008/juice-shop-vapt)
+This repository is intended for educational and ethical use only. All vulnerabilities demonstrated are part of OWASP Juice Shop — an intentionally vulnerable web application. Do not attempt these techniques on unauthorized systems. Always act responsibly and legally.
