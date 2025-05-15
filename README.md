@@ -4,7 +4,7 @@ Welcome to my Vulnerability Assessment & Penetration Testing (VAPT) project focu
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure 
 
 juice-shop-vapt/
 ├── Findings/
@@ -50,7 +50,6 @@ juice-shop-vapt/
 │ └── AuthSession/
 ├── Tools_Used.md
 └── README.md
-
 
 
 ---
