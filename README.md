@@ -18,8 +18,8 @@ juice-shop-vapt/
 │   │   ├── reflected-xss.md
 │   │   └── bonus-paylaod.md
 │   ├── broken-access-control/
-│   │   ├── access-admin-section.md
-│   │   ├── basket-access.md
+│   │   ├── Forged-Feedback.md
+│   │   ├── View-Another-User-Basket.md
 │   │   └── review-edit.md
 │   ├── idor/
 │   │   ├── order-access.md
@@ -43,7 +43,7 @@ juice-shop-vapt/
 │       ├── XSS/
 │       │   ├── DOM/
 │       │   ├── Reflected/
-│       │   └── Stored/
+│       │   └── Bonus/
 │       ├── BrokenAccessControl/
 │       ├── IDOR/
 │       ├── SensitiveDataExposure/
@@ -63,7 +63,7 @@ juice-shop-vapt/
 |---|----------------------------|--------------------------------------------------------------------------|--------------------------------------|
 | 1 | **Injection**              | Admin Login via SQLi, No-Sql-Manipulation, Union SQLi                    | `Screenshots/Injection/`            |
 | 2 | **Cross-Site Scripting**   | DOM XSS, Reflected XSS in Order Tracking, Bonus Payload                  | `Screenshots/XSS/DOM`, `Reflected`, `Stored` |
-| 3 | **Broken Access Control**  | Access Admin Section, View Other’s Basket, Modify/Delete Review          | `Screenshots/BrokenAccessControl/`  |
+| 3 | **Broken Access Control**  | Forged Feedback, View Other’s Basket, Modify/Delete Review               | `Screenshots/BrokenAccessControl/`  |
 | 4 | **IDOR**                   | View Other’s Orders, Download Invoice, Modify Order via URL              | `Screenshots/IDOR/`                 |
 | 5 | **Sensitive Data Exposure**| Retrieve Cat Photo, Backup File Access, Access Internal Docs             | `Screenshots/SensitiveDataExposure/`|
 | 6 | **Security Misconfiguration** | Access Logs, Deprecated B2B API, Insecure CORS                         | `Screenshots/SecurityMisconfiguration/`|
