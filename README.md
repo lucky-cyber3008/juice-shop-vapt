@@ -26,9 +26,9 @@ juice-shop-vapt/
 │   │   ├── invoice-download.md
 │   │   └── order-modify.md
 │   ├── sensitive-data-exposure/
-│   │   ├── cat-photo.md
-│   │   ├── backup-access.md
-│   │   └── internal-docs.md
+│   │   ├── confidentail-document.md
+│   │   ├── login-MCsafesearch.md
+│   │   └── NFT-Takeover.md
 │   ├── security-misconfiguration/
 │   │   ├── access-logs.md
 │   │   ├── b2b-api.md
@@ -65,8 +65,8 @@ juice-shop-vapt/
 | 2 | **Cross-Site Scripting**   | DOM XSS, Reflected XSS in Order Tracking, Bonus Payload                  | `Screenshots/XSS/DOM`, `Reflected`, `Stored` |
 | 3 | **Broken Access Control**  | Forged Feedback, View Other’s Basket, Modify/Delete Review               | `Screenshots/BrokenAccessControl/`  |
 | 4 | **IDOR**                   | View Other’s Orders, Download Invoice, Modify Order via URL              | `Screenshots/IDOR/`                 |
-| 5 | **Sensitive Data Exposure**| Retrieve Cat Photo, Backup File Access, Access Internal Docs             | `Screenshots/SensitiveDataExposure/`|
-| 6 | **Security Misconfiguration** | Access Logs, Deprecated B2B API, Insecure CORS                         | `Screenshots/SecurityMisconfiguration/`|
+| 5 | **Sensitive Data Exposure**| Confidentail-Document, Login-MCsafesearch, NFT-TAkeover                  | `Screenshots/SensitiveDataExposure/`|
+| 6 | **Security Misconfiguration** | Access Logs, Deprecated B2B API, Insecure CORS                        | `Screenshots/SecurityMisconfiguration/`|
 | 7 | **Auth & Session Issues**  | SQL Login Bypass, Tokenless Password Reset, Persistent Session           | `Screenshots/AuthSession/`          |
 
 > Each report contains payloads, Burp Suite steps, screenshots, vulnerability impact, and suggested mitigations.
