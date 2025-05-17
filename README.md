@@ -31,7 +31,7 @@ juice-shop-vapt/
 │   │   └── NFT-Takeover.md
 │   ├── security-misconfiguration/
 │   │   ├── Error-Handling.md
-│   │   ├── b2b-api.md
+│   │   ├── Deprecated-Interface.md
 │   │   └── cors.md
 │   └── auth-session/
 │       ├── sql-bypass-login.md
@@ -66,7 +66,7 @@ juice-shop-vapt/
 | 3 | **Broken Access Control**  | Forged Feedback, View Other’s Basket, Modify/Delete Review               | `Screenshots/BrokenAccessControl/`  |
 | 4 | **IDOR**                   | View Other’s Orders, Download Invoice, Modify Order via URL              | `Screenshots/IDOR/`                 |
 | 5 | **Sensitive Data Exposure**| Confidentail-Document, Login-MCsafesearch, NFT-TAkeover                  | `Screenshots/SensitiveDataExposure/`|
-| 6 | **Security Misconfiguration** | Error-Handling, Deprecated B2B API, Insecure CORS                     | `Screenshots/SecurityMisconfiguration/`|
+| 6 | **Security Misconfiguration** | Error-Handling, Deprecated-Interface, Insecure CORS                   | `Screenshots/SecurityMisconfiguration/`|
 | 7 | **Auth & Session Issues**  | SQL Login Bypass, Tokenless Password Reset, Persistent Session           | `Screenshots/AuthSession/`          |
 
 > Each report contains payloads, Burp Suite steps, screenshots, vulnerability impact, and suggested mitigations.
