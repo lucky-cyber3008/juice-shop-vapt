@@ -21,10 +21,10 @@ juice-shop-vapt/
 │   │   ├── Forged-Feedback.md
 │   │   ├── View-Another-User-Basket.md
 │   │   └── review-edit.md
-│   ├── idor/
-│   │   ├── order-access.md
-│   │   ├── invoice-download.md
-│   │   └── order-modify.md
+│   ├── improper-input-validation/
+│   │   ├── Zero-star.md
+│   │   ├── Empty-User-Registration.md
+│   │   └── Admin-Registration.md
 │   ├── sensitive-data-exposure/
 │   │   ├── confidentail-document.md
 │   │   ├── login-MCsafesearch.md
@@ -64,7 +64,7 @@ juice-shop-vapt/
 | 1 | **Injection**              | Admin Login via SQLi, No-Sql-Manipulation, Union SQLi                    | `Screenshots/Injection/`            |
 | 2 | **Cross-Site Scripting**   | DOM XSS, Reflected XSS in Order Tracking, Bonus Payload                  | `Screenshots/XSS/DOM`, `Reflected`, `Stored` |
 | 3 | **Broken Access Control**  | Forged Feedback, View Other’s Basket, Modify/Delete Review               | `Screenshots/BrokenAccessControl/`  |
-| 4 | **IDOR**                   | View Other’s Orders, Download Invoice, Modify Order via URL              | `Screenshots/IDOR/`                 |
+| 4 | **Improper-Input-Validation**| Zero-Star, Empty-User-Registration, Admin-Registration                   | `Screenshots/IDOR/`                 |
 | 5 | **Sensitive Data Exposure**| Confidentail-Document, Login-MCsafesearch, NFT-TAkeover                  | `Screenshots/SensitiveDataExposure/`|
 | 6 | **Security Misconfiguration** | Error-Handling, Deprecated-Interface, Insecure CORS                   | `Screenshots/SecurityMisconfiguration/`|
 | 7 | **Auth & Session Issues**  | SQL Login Bypass, Tokenless Password Reset, Persistent Session           | `Screenshots/AuthSession/`          |
