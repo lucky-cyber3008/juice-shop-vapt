@@ -32,11 +32,7 @@ juice-shop-vapt/
 │   ├── security-misconfiguration/
 │       ├── Error-Handling.md
 │       ├── Deprecated-Interface.md
-│      
-│   
-│   
-│       
-│      
+      
 ├── Reports/
 │   └── Screenshots/
 │       ├── Injection/
