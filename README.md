@@ -30,13 +30,13 @@ juice-shop-vapt/
 │   │   ├── login-MCsafesearch.md
 │   │   └── NFT-Takeover.md
 │   ├── security-misconfiguration/
-│   │   ├── Error-Handling.md
-│   │   ├── Deprecated-Interface.md
-│   │   └── cors.md
-│   └── auth-session/
-│       ├── sql-bypass-login.md
-│       ├── reset-token-abuse.md
-│       └── persistent-session.md
+│       ├── Error-Handling.md
+│       ├── Deprecated-Interface.md
+│      
+│   
+│   
+│       
+│      
 ├── Reports/
 │   └── Screenshots/
 │       ├── Injection/
@@ -48,7 +48,6 @@ juice-shop-vapt/
 │       ├── IDOR/
 │       ├── SensitiveDataExposure/
 │       ├── SecurityMisconfiguration/
-│       └── AuthSession/
 ├── Tools_Used.md
 └── README.md
 ```
@@ -67,7 +66,7 @@ juice-shop-vapt/
 | 4 | **Improper-Input-Validation**| Zero-Star, Empty-User-Registration, Admin-Registration                   | `Screenshots/Improper-Input-Validation/`                 |
 | 5 | **Sensitive Data Exposure**| Confidentail-Document, Login-MCsafesearch, NFT-TAkeover                  | `Screenshots/SensitiveDataExposure/`|
 | 6 | **Security Misconfiguration** | Error-Handling, Deprecated-Interface, Insecure CORS                   | `Screenshots/SecurityMisconfiguration/`|
-| 7 | **Auth & Session Issues**  | SQL Login Bypass, Tokenless Password Reset, Persistent Session           | `Screenshots/AuthSession/`          |
+
 
 > Each report contains payloads, Burp Suite steps, screenshots, vulnerability impact, and suggested mitigations.
 
